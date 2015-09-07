@@ -18,6 +18,7 @@ line-height:18px;
 
 .big {
   font-size: 20px;
+  line-height: 120%;
 }
 
 .small {
@@ -26,6 +27,7 @@ line-height:18px;
 
 .giant {
   font-size: 40px;
+  line-height: 120%;
 }
 
 .green {
@@ -68,6 +70,7 @@ line-height:18px;
   margin-top: 10px;
   margin-bottom: 50px;
   font-weight: bold;
+  line-height: 130%;
 }
 
 .one {
@@ -100,6 +103,18 @@ line-height:18px;
   padding-top: 30px;
   padding-left: 50px;
   margin-bottom: 0px;
+}
+
+#caution {
+  width: 1000px;
+  background-color: pink;
+  margin-left: 150px;
+  margin-top: 30px;
+}
+
+#caution p {
+  font-weight: bold;
+  font-size: 30px;
 }
 
 #headcontent ul {
@@ -146,7 +161,7 @@ img {
 #headline {
   height: 40px;
   width: 1000px;
-  margin-top: 50px;
+  margin-top: 30px;
   margin-bottom: 0px;
   margin-left: 150px;
   border-color: rgb(184, 184, 184);
@@ -180,7 +195,7 @@ img {
 #title {
   width: 1000px;
   height: 80px;
-  margin-top: 20px;
+  margin-top: 40px;
   margin-left: 150px;
   margin-bottom: 0px;
   padding: 0px;
@@ -189,14 +204,24 @@ img {
   background-color: skyblue;
 }
 
+#preface {
+  margin-left: 30px;
+  margin-top: 0px;
+}
+
 #article {
-  margin-top: 50px;
+  margin-top: 70px;
   margin-left: 20px;
 }
 
 #maintitle{
   margin-left: 5px;
   margin-top: 25px;
+}
+
+#amazon {
+  margin-left: 50px;
+  margin-bottom: 50px;
 }
 
 #ads {

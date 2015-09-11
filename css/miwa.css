@@ -58,14 +58,6 @@ line-height:18px;
                gray 1px -1px 0px, gray -1px -1px 0px;
 }
 
-.headtitle {
-  color:white;
-  letter-spacing: 3px;
-  font-size: 40px;
-  margin-top: 0px;
-  margin-left: 10px;
-}
-
 .res {
   margin-top: 10px;
   margin-bottom: 50px;
@@ -109,6 +101,7 @@ line-height:18px;
   width: 1000px;
   background-color: pink;
   margin-left: 150px;
+  margin-right: 150px;
   margin-top: 30px;
 }
 
@@ -150,6 +143,7 @@ img {
 
 #header {
   margin-left: 150px;
+  margin-right: 150px;
 }
 
 #top {
@@ -159,15 +153,24 @@ img {
 }
 
 #headline {
-  height: 40px;
   width: 1000px;
+  height: 40px;
   margin-top: 30px;
   margin-bottom: 0px;
   margin-left: 150px;
+  margin-right: 150px;
   border-color: rgb(184, 184, 184);
   border-style: solid;
   border-width: 2px;
   background-color: skyblue;
+}
+
+.headtitle {
+  color:white;
+  letter-spacing: 3px;
+  font-size: 40px;
+  margin-top: 0em;
+  margin-left: 0.1em;
 }
 
 #headcontent {
@@ -175,6 +178,7 @@ img {
   height: 200px;
   margin-top: 0px;
   margin-left: 150px;
+  margin-right: 150px;
   margin-bottom: 50px;
   overflow-y: scroll;
   background-color: white;
@@ -190,6 +194,7 @@ img {
   width: 1000px;
   background-color: white;
   margin-left: 150px;
+  margin-right: 150px;
 }
 
 #title {
@@ -228,6 +233,7 @@ img {
   margin-top: 70px;
   width: 1000px;
   margin-left: 150px;
+  margin-right: 150px;
   border: rgb(184, 184, 184) solid 2px;
   background-color: white;
 }
@@ -274,6 +280,7 @@ img {
   border: rgb(184, 184, 184) solid 2px;
   margin-top: 40px;
   margin-left: 150px;
+  marign-right: 150px;
   width: 1000px;
   background-color: white;
 }
@@ -282,6 +289,7 @@ img {
   width: 1000px;
   height: 30px;
   margin-left: 150px;
+  margin-right: 150px;
   margin-top: 30px;
   background-color: blue;
   border: rgb(249, 244, 224) groove 1px;

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="今ホットなちゃんみわに関する情報をお届けします">
+
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/flat-ui.min.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+
+  <title>ちゃんみわ速報</title>
+</head>
+<body>
+  <div>
+    <div class="main">
+      <p id="omedetou">あなたのことを教えてください</p>
+      <p id="chance">ひとつだけの質問です</p>
+      <hr class="shita">
+    </div>
+    <div id="question">
+      <p class="sentence">Q.あなたの次の職種はなんですか？</p>
+      <form class="form" action="">
+        <selection>
+          <p><input type="radio" name="a" id="1"/><label class="radio" for="1">介護・看護　　　</label></p>
+          <p><input type="radio" name="a" id="2"/><label class="radio" for="2">飲食　　　　　　</label></p>
+          <p><input type="radio" name="a" id="3"/><label class="radio" for="3">営業　　　　　　</label></p>
+          <p><input type="radio" name="a" id="4"/><label class="radio" for="4">工場　　　　　　</label></p>
+          <p><input type="radio" name="a" id="5"/><label class="radio" for="5">物流・土方　　　</label></p>
+          <p><input type="radio" name="a" id="6"/><label class="radio" for="6">接客・販売　　　</label></p>
+          <p><input type="radio" name="a" id="7"/><label class="radio" for="7">コールセンター系</label></p>
+          <p><input type="radio" name="a" id="8"/><label class="radio" for="8">IT系　　　　　　</label></p>
+        </selection>
+
+        <div>
+          <button type="button" id="send-btn" class="btn-large btn-success">次へ進む</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="js/third.js"></script>
+</body>
+</html>

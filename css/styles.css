@@ -1,0 +1,234 @@
+/*main*/
+body {
+  user-select: none;
+  font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+}
+
+.main {
+  min-width: 1000px;
+  padding: 20px;
+  background: whitesmoke;
+}
+
+/*index*/
+#omedetou {
+  text-align: center;
+  font-size: 40px;
+  color: red;
+  margin-top: 15px;
+}
+
+#chance {
+  text-align: center;
+  font-size: 35px;
+  color: dimgray;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+#nesage {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 70px;
+}
+
+#nesage #torikeshi {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+#nesage #migi {
+  color: black;
+}
+
+#nesage #zero {
+  color: red;
+}
+
+#switch_img {
+  text-align: center;
+}
+
+#get_button{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+#count_down{
+  margin-top: 50px;
+  text-align: center;
+}
+
+#count_down #message {
+  font-size: 20px;
+}
+
+#count_down #timer {
+  font-size: 25px;
+  color: red;
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+/*second*/
+#games {
+  width: 80%;
+  margin-top: 80px;
+  margin-left: 5%;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.select-btn {
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* third */
+
+#question{
+  text-align: center;
+  margin-top: 60px;
+}
+
+#question .sentence {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+#send-btn {
+  margin-top: 30px;
+}
+
+/*forth*/
+
+#img_yabai {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#img_yabai p {
+  font-size: 20px;
+}
+
+#img_yabai img {
+  padding: 5px;
+  border: 1px solid gray;
+}
+
+#last-btn {
+  margin-top: 70px;
+}
+
+/*small class*/
+
+
+hr.shita {
+  border: 0;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 1px;
+  background: #333;
+  background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+  background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc);
+  background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc);
+  background-image:      -o-linear-gradient(left, #ccc, #333, #ccc);
+}
+
+/*リンク関係*/
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover { text-decoration: none; }
+
+a:visited{
+  color: white;
+}
+
+/*radio*/
+
+input[type=radio], input[type=checkbox] {
+  display: none;
+}
+
+.radio, .checkbox {
+  box-sizing: border-box;
+  -webkit-transition: background-color 0.2s linear;
+  transition: background-color 0.2s linear;
+  position: relative;
+  display: inline-block;
+  margin: 0 20px 8px 0;
+  padding: 12px 12px 12px 42px;
+  border-radius: 8px;
+  background-color: #f6f7f8;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.radio:hover, .checkbox:hover {
+  background-color: #e2edd7;
+}
+.radio:hover:after, .checkbox:hover:after {
+  border-color: #53b300;
+}
+.radio:after, .checkbox:after {
+  -webkit-transition: border-color 0.2s linear;
+  transition: border-color 0.2s linear;
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  display: block;
+  margin-top: -10px;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #bbb;
+  border-radius: 6px;
+  content: '';
+}
+
+.radio:before {
+  -webkit-transition: opacity 0.2s linear;
+  transition: opacity 0.2s linear;
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  display: block;
+  margin-top: -5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #53b300;
+  content: '';
+  opacity: 0;
+}
+input[type=radio]:checked + .radio:before {
+  opacity: 1;
+}
+
+.checkbox:before {
+  -webkit-transition: opacity 0.2s linear;
+  transition: opacity 0.2s linear;
+  position: absolute;
+  top: 50%;
+  left: 21px;
+  display: block;
+  margin-top: -7px;
+  width: 5px;
+  height: 9px;
+  border-right: 3px solid #53b300;
+  border-bottom: 3px solid #53b300;
+  content: '';
+  opacity: 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+input[type=checkbox]:checked + .checkbox:before {
+  opacity: 1;
+}

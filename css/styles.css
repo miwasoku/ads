@@ -231,3 +231,13 @@ input[type=radio]:checked + .radio:before {
 input[type=checkbox]:checked + .checkbox:before {
   opacity: 1;
 }
+
+@media screen and (max-width: 640px){
+  #omedetou {
+    font-size: 20px;
+  }
+
+  #chance {
+    font-size: 15px;
+  }
+}

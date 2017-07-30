@@ -234,18 +234,18 @@ input[type=checkbox]:checked + .checkbox:before {
 
 @media screen and (max-width: 640px){
   #omedetou {
-    font-size: 15px;
+    font-size: 18px;
   }
 
   #chance {
-    font-size: 15px;
+    font-size: 18px;
   }
 
   #nesage {
-    font-size: auto;
+    font-size: 20px;
   }
 
   #question .sentence {
-    font-size: 12px;
+    font-size: 18px;
   }
 }

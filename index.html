@@ -12,17 +12,60 @@
 
   <title>ちゃんみわ速報</title>
 </head>
-<body style="background: black;">
+<body style="background: #fffafa">
   <div style="text-align: center">
-    <p style="font-size: 50px;"></p>
-    <video src="video/コンギョ.mp4" id="kongyo" autoplay >
-      おいどうした腐れオタクども　まんまとサムネイルに釣られたってか
-    </video>
+    <p class="lie1">抱腹絶倒！爆笑必至！</p>
+    <p class="lie2">ユーモア全開マックスモード！！！</p>
+    <p class="lie3">"あの"お笑い通が作った珠玉のネタ１０連発！</p>
+    <a href="./1.html"><div id="lie-btn" class="btn btn-danger">爆笑ネタを見る！</div></a>
   </div>
   <style>
-    #kongyo {
-      width: 60%;
-    }
+  @media only screen and (max-width: 1150px){
+  .lie1 {
+    font-size: 8vw;
+    margin-top: 0.5em;
+    font-weight: bold;
+    color: red;
+  }
+  .lie2 {
+    font-size: 5vw;
+    margin-top: -0.5em;
+    font-weight: bold;
+    color: red;
+  }
+  .lie3{
+    font-size: 4vw;
+    margin-top: 1em;
+  }
+  #lie-btn{
+    width: 80vw;
+    font-size: 5vw;
+    margin-top: 2em;
+  }
+  }
+  @media only screen and (min-width: 1150px){
+  .lie1 {
+    font-size: 5em;
+    margin-top: 0.5em;
+    font-weight: bold;
+    color: red;
+  }
+  .lie2 {
+    font-size: 4em;
+    margin-top: -0.5em;
+    font-weight: bold;
+    color: red;
+  }
+  .lie3{
+    font-size: 2.5em;
+    margin-top: 1em;
+  }
+  #lie-btn{
+    width: 50vw;
+    font-size: 4vw;
+    margin-top: 2em;
+  }
+  }
   </style>
 </body>
 </html>
